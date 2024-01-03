@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS Coupon Calc</title>
+    <link rel="icon" href="icon.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="container">
+        <div id="logo"><img src="icon.webp" alt="logo"></div>
+        <form >
+            <div>
+            <label for="inp"><b>Enter the COUPON Amount</b></label>
+            <input type="number" id="inp" autofocus>
+            </div>
+            
+            <div id="results">
+                <div id="p"></div>
+                <div id="t"></div>
+                <div id="wt"></div>
+                <div id="o"></div>
+                <div id="wo"></div>
+            </div>
+            <div id="ebt">
+            <button type="button" id="Enter" onclick="done()">Enter</button>
+            </div>
+        </form>
+        
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
